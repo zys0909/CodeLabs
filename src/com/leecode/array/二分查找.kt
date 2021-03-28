@@ -7,9 +7,7 @@ fun main() {
     val arr = intArrayOf(1, 2, 3, 4, 5, 7, 8, 9)
 
     println(binarySearch(arr, arr.size, 6))
-
-    println(Integer.toBinaryString(5))
-    println(Integer.toBinaryString(-6))
+    
 }
 
 
