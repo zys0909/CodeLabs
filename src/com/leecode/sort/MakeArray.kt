@@ -1,4 +1,4 @@
-package com.leecode.array
+package com.leecode.sort
 
 import kotlin.random.Random
 

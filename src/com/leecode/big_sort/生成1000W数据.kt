@@ -1,5 +1,7 @@
 package com.leecode.big_sort
 
+import com.leecode.printTime
+import com.leecode.sort.swap1
 import kotlin.random.Random
 
 
@@ -44,12 +46,8 @@ private const val fileName = "data.txt"
 private const val big_size = 1000 * 10000
 
 fun main() {
-    val start = System.currentTimeMillis()
-    writeData()
 
-
-//    readData(fileName, 10)
-
-    val end = System.currentTimeMillis()
-    println("\n耗时：${(end - start) / 1000f}ms")
+    printTime {
+        writeData()
+    }
 }

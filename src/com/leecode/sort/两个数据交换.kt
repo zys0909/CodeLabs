@@ -1,9 +1,9 @@
-package com.leecode.big_sort
+package com.leecode.sort
 
 /**
  * 1.引入临时变量
  */
-inline fun swap1(arr: IntArray, x: Int, y: Int) {
+fun swap1(arr: IntArray, x: Int, y: Int) {
     val temp = arr[x]
     arr[x] = arr[y]
     arr[y] = temp
@@ -13,7 +13,7 @@ inline fun swap1(arr: IntArray, x: Int, y: Int) {
  * 2.用加减法，会产生数值溢出
  * 无需引入临时变量
  */
-inline fun swap2(arr: IntArray, x: Int, y: Int) {
+fun swap2(arr: IntArray, x: Int, y: Int) {
     arr[x] = arr[x] + arr[y]
     arr[y] = arr[x] - arr[y]
     arr[x] = arr[x] - arr[y]
@@ -37,14 +37,12 @@ fun swap4(arr: IntArray, x: Int, y: Int) {
 }
 
 fun main() {
-    var a: Int = Int.MAX_VALUE
-    var b: Int = 16
-
-    println("前： a = $a ,b = $b")
-    a += b
-    println("a+b=$a")
-    b = a - b
-    println("a-b=$b")
-    a -= b
-    println("后： a = $a ,b = $b")
+    val arr = intArrayOf(Int.MAX_VALUE, 16)
+    println("初始值：arr[0] = ${arr[0]} , arr[1] = ${arr[1]}")
+    swap1(arr, 0, 1)
+    println("中间值交换：arr[0] = ${arr[0]} , arr[1] = ${arr[1]}")
+    swap2(arr, 0, 1)
+    println("加减法交换：arr[0] = ${arr[0]} , arr[1] = ${arr[1]}")
+    swap3(arr, 0, 1)
+    println("异或法交换：arr[0] = ${arr[0]} , arr[1] = ${arr[1]}")
 }

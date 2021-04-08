@@ -1,11 +1,22 @@
 package com.leecode.big_sort
 
+import com.leecode.printTime
 import java.util.*
 
 private const val memory_size = 250000
 
 
 private fun newFileName(i: Int) = "data$i.txt"
+
+/**
+ * 交换两个值，异或法
+ */
+@Suppress("NOTHING_TO_INLINE")
+private inline fun swap(arr: IntArray, x: Int, y: Int) {
+    arr[x] = arr[x] xor arr[y]
+    arr[y] = arr[x] xor arr[y]
+    arr[x] = arr[x] xor arr[y]
+}
 
 /**
  * 内存中排序，每次排序250000
@@ -59,6 +70,7 @@ private fun mergeSort(fileNum: Int) {
         for (i in index + 1 until fileNum) {
             if (minValue > firstData[i] && !finish[i]) {
                 minValue = firstData[i]
+                index = i
             }
         }
         FileUtil.writeLine(fw, minValue)
@@ -73,30 +85,29 @@ private fun mergeSort(fileNum: Int) {
         br.close()
     }
 
-    for (file in fileArray){
+    for (file in fileArray) {
         file.deleteOnExit()
     }
     fw.close()
 }
 
 fun main() {
-    val start1 = System.currentTimeMillis()
-    val fileNum = memorySort()
-    val end1 = System.currentTimeMillis()
-    println("\n耗时：${(end1 - start1) / 1000f}ms")
 
-    val start2 = System.currentTimeMillis()
-    mergeSort(fileNum)
-    val end2 = System.currentTimeMillis()
-    println("\n耗时：${(end2 - start2) / 1000f}ms")
+    val fileNum = printTime {
+        memorySort()
+    }
+
+    printTime {
+        mergeSort(fileNum)
+    }
 
 }
 
-private fun delete(){
-    val fileArray = Array(40) {
+private fun delete(fileNum: Int) {
+    val fileArray = Array(fileNum) {
         FileUtil.newFile(newFileName(it + 1))
     }
-    for (file in fileArray){
+    for (file in fileArray) {
         file.deleteOnExit()
     }
 }
