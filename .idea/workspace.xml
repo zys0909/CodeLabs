@@ -26,16 +26,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df5a7e54-570e-4743-a17a-8905084a6c22" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/leecode/sort/1.冒泡排序.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leecode/sort/2.选择排序.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leecode/sort/3.插入排序.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leecode/sort/4.希尔排序.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/leecode/Ext.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leecode/Ext.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/leecode/array/MakeArray.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leecode/sort/MakeArray.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/leecode/array/二分查找.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leecode/sort/二分查找.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/leecode/array/归并排序.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leecode/sort/归并排序.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/leecode/array/归并排序ForkJoin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leecode/sort/归并排序ForkJoin.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/leecode/array/插入排序.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leecode/sort/插入排序.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/leecode/big_sort/两个数据交换.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leecode/sort/两个数据交换.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/leecode/big_sort/生成1000W数据.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leecode/big_sort/生成1000W数据.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/leecode/big_sort/超大数据排序.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leecode/big_sort/超大数据排序.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leecode/sort/归并排序.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leecode/sort/归并排序.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leecode/sort/归并排序ForkJoin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leecode/sort/归并排序ForkJoin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leecode/sort/插入排序.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leecode/big_sort/InsertionSort.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,57 +69,21 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/leecode/big_sort" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="consents" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/leecode/big_sort" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/com/leecode/sort" />
       <recent name="$PROJECT_DIR$/src/com/leecode" />
       <recent name="$PROJECT_DIR$/src/com/leecode/big_sort" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.超大数据排序Kt">
-    <configuration name="生成1000W数据Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="CodeLabs" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.leecode.big_sort.生成1000W数据Kt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BigTestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="CodeLabs" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.leecode.big_sort.BigTestKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileUtilKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="CodeLabs" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.leecode.big_sort.FileUtilKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin._4_希尔排序Kt">
     <configuration name="超大数据排序Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="CodeLabs" />
       <option name="VM_PARAMETERS" />
@@ -174,13 +136,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_1_冒泡排序Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="CodeLabs" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.leecode.sort._1_冒泡排序Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_2_选择排序Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="CodeLabs" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.leecode.sort._2_选择排序Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_3_插入排序Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="CodeLabs" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.leecode.sort._3_插入排序Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_4_希尔排序Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="CodeLabs" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.leecode.sort._4_希尔排序Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin._4_希尔排序Kt" />
+        <item itemvalue="Kotlin._3_插入排序Kt" />
+        <item itemvalue="Kotlin._2_选择排序Kt" />
+        <item itemvalue="Kotlin._1_冒泡排序Kt" />
         <item itemvalue="Kotlin.超大数据排序Kt" />
-        <item itemvalue="Kotlin.生成1000W数据Kt" />
-        <item itemvalue="Kotlin.两个数据交换Kt" />
-        <item itemvalue="Kotlin.FileUtilKt" />
-        <item itemvalue="Kotlin.BigTestKt" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +214,9 @@
       <workItem from="1616981419686" duration="380000" />
       <workItem from="1617353312181" duration="1052000" />
       <workItem from="1617683048657" duration="10572000" />
-      <workItem from="1617768949054" duration="16031000" />
+      <workItem from="1617768949054" duration="16229000" />
+      <workItem from="1618797580190" duration="333000" />
+      <workItem from="1618801350899" duration="9054000" />
     </task>
     <servers />
   </component>
@@ -249,42 +265,42 @@
       <screen x="0" y="23" width="1680" height="962" />
     </state>
     <state width="441" height="466" key="DebuggerActiveHint/1680.-81.1920.1057/0.23.1680.962@0.23.1680.962" timestamp="1617844258052" />
-    <state width="1358" height="245" key="GridCell.Tab.0.bottom" timestamp="1617849836533">
+    <state width="1358" height="140" key="GridCell.Tab.0.bottom" timestamp="1618822179318">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
     <state width="1340" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616938142470" />
-    <state width="1358" height="245" key="GridCell.Tab.0.bottom/1680.-81.1920.1057/0.23.1680.962@0.23.1680.962" timestamp="1617849836533" />
-    <state width="1358" height="245" key="GridCell.Tab.0.center" timestamp="1617849836532">
+    <state width="1358" height="140" key="GridCell.Tab.0.bottom/1680.-81.1920.1057/0.23.1680.962@0.23.1680.962" timestamp="1618822179318" />
+    <state width="1358" height="140" key="GridCell.Tab.0.center" timestamp="1618822179317">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
     <state width="1340" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616938142469" />
-    <state width="1358" height="245" key="GridCell.Tab.0.center/1680.-81.1920.1057/0.23.1680.962@0.23.1680.962" timestamp="1617849836532" />
-    <state width="1358" height="245" key="GridCell.Tab.0.left" timestamp="1617849836531">
+    <state width="1358" height="140" key="GridCell.Tab.0.center/1680.-81.1920.1057/0.23.1680.962@0.23.1680.962" timestamp="1618822179317" />
+    <state width="1358" height="140" key="GridCell.Tab.0.left" timestamp="1618822179317">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
     <state width="1340" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616938142469" />
-    <state width="1358" height="245" key="GridCell.Tab.0.left/1680.-81.1920.1057/0.23.1680.962@0.23.1680.962" timestamp="1617849836531" />
-    <state width="1358" height="245" key="GridCell.Tab.0.right" timestamp="1617849836532">
+    <state width="1358" height="140" key="GridCell.Tab.0.left/1680.-81.1920.1057/0.23.1680.962@0.23.1680.962" timestamp="1618822179317" />
+    <state width="1358" height="140" key="GridCell.Tab.0.right" timestamp="1618822179318">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
     <state width="1340" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616938142469" />
-    <state width="1358" height="245" key="GridCell.Tab.0.right/1680.-81.1920.1057/0.23.1680.962@0.23.1680.962" timestamp="1617849836532" />
-    <state width="1358" height="304" key="GridCell.Tab.1.bottom" timestamp="1617844666637">
+    <state width="1358" height="140" key="GridCell.Tab.0.right/1680.-81.1920.1057/0.23.1680.962@0.23.1680.962" timestamp="1618822179318" />
+    <state width="1358" height="304" key="GridCell.Tab.1.bottom" timestamp="1617850662253">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
-    <state width="1358" height="304" key="GridCell.Tab.1.bottom/1680.-81.1920.1057/0.23.1680.962@0.23.1680.962" timestamp="1617844666637" />
-    <state width="1358" height="304" key="GridCell.Tab.1.center" timestamp="1617844666637">
+    <state width="1358" height="304" key="GridCell.Tab.1.bottom/1680.-81.1920.1057/0.23.1680.962@0.23.1680.962" timestamp="1617850662253" />
+    <state width="1358" height="304" key="GridCell.Tab.1.center" timestamp="1617850662253">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
-    <state width="1358" height="304" key="GridCell.Tab.1.center/1680.-81.1920.1057/0.23.1680.962@0.23.1680.962" timestamp="1617844666637" />
-    <state width="1358" height="304" key="GridCell.Tab.1.left" timestamp="1617844666636">
+    <state width="1358" height="304" key="GridCell.Tab.1.center/1680.-81.1920.1057/0.23.1680.962@0.23.1680.962" timestamp="1617850662253" />
+    <state width="1358" height="304" key="GridCell.Tab.1.left" timestamp="1617850662252">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
-    <state width="1358" height="304" key="GridCell.Tab.1.left/1680.-81.1920.1057/0.23.1680.962@0.23.1680.962" timestamp="1617844666636" />
-    <state width="1358" height="304" key="GridCell.Tab.1.right" timestamp="1617844666637">
+    <state width="1358" height="304" key="GridCell.Tab.1.left/1680.-81.1920.1057/0.23.1680.962@0.23.1680.962" timestamp="1617850662252" />
+    <state width="1358" height="304" key="GridCell.Tab.1.right" timestamp="1617850662253">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
-    <state width="1358" height="304" key="GridCell.Tab.1.right/1680.-81.1920.1057/0.23.1680.962@0.23.1680.962" timestamp="1617844666637" />
+    <state width="1358" height="304" key="GridCell.Tab.1.right/1680.-81.1920.1057/0.23.1680.962@0.23.1680.962" timestamp="1617850662253" />
     <state x="628" y="213" key="RollbackChangesDialog" timestamp="1617683596521">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
@@ -297,18 +313,18 @@
       <screen x="0" y="23" width="1680" height="962" />
     </state>
     <state x="385" y="240" width="909" height="617" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/1680.-81.1920.1057/0.23.1680.962@0.23.1680.962" timestamp="1617780623692" />
-    <state width="607" height="492" key="documentation.popup.size" timestamp="1617782247544">
+    <state width="607" height="492" key="documentation.popup.size" timestamp="1618817141420">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
-    <state width="607" height="492" key="documentation.popup.size/1680.-81.1920.1057/0.23.1680.962@0.23.1680.962" timestamp="1617782247544" />
-    <state width="600" height="428" key="javadoc.popup" timestamp="1617781879413">
+    <state width="607" height="492" key="documentation.popup.size/1680.-81.1920.1057/0.23.1680.962@0.23.1680.962" timestamp="1618817141420" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1618820918076">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
     <state width="607" height="492" key="javadoc.popup.new" timestamp="1617699391887">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
     <state width="607" height="492" key="javadoc.popup.new/1680.-81.1920.1057/0.23.1680.962@0.23.1680.962" timestamp="1617699391887" />
-    <state width="600" height="428" key="javadoc.popup/1680.-81.1920.1057/0.23.1680.962@0.23.1680.962" timestamp="1617781879413" />
+    <state width="600" height="428" key="javadoc.popup/1680.-81.1920.1057/0.23.1680.962@0.23.1680.962" timestamp="1618820918076" />
     <state x="233" y="126" key="new project wizard" timestamp="1616981051794">
       <screen x="0" y="23" width="1680" height="962" />
     </state>

@@ -1,5 +1,6 @@
 package com.leecode.sort
 
+import com.leecode.big_sort.InsertionSort
 import com.leecode.printTime
 import java.util.concurrent.ForkJoinPool
 import java.util.concurrent.ForkJoinTask

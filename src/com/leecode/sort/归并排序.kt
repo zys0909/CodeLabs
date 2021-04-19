@@ -1,5 +1,6 @@
 package com.leecode.sort
 
+import com.leecode.big_sort.InsertionSort
 import com.leecode.printTime
 
 

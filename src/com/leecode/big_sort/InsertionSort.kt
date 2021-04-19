@@ -1,17 +1,7 @@
-package com.leecode.sort
-
-import com.leecode.printTime
+package com.leecode.big_sort
 
 
 object InsertionSort {
-
-    @JvmStatic
-    fun main(args: Array<String>) {
-        val result = printTime {
-            sort(makeArray())
-        }
-        println(result.joinToString())
-    }
 
     /**
      * 简单插入排序（升序）
