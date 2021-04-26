@@ -6,7 +6,9 @@ import java.util.concurrent.ForkJoinPool
 import java.util.concurrent.ForkJoinTask
 import java.util.concurrent.RecursiveTask
 
-
+/**
+ * JDK 内置的 ForkJoinTask
+ */
 object ForkJoin {
     private class SunTask(private val src: IntArray) : RecursiveTask<IntArray>() {
         companion object {
@@ -23,7 +25,7 @@ object ForkJoin {
                 ForkJoinTask.invokeAll(left, right)
                 val joinLeft = left.join()
                 val joinRight = right.join()
-                MergeSort.merge(joinLeft, joinRight)
+                merge(joinLeft, joinRight)
             }
         }
     }
@@ -31,7 +33,7 @@ object ForkJoin {
     @JvmStatic
     fun main(args: Array<String>) {
         val pool = ForkJoinPool()
-        val src = makeArray()
+        val src = MakeArray.makeArray(40000)
         val result = printTime {
             pool.invoke(SunTask(src))
         }

@@ -34,6 +34,7 @@ fun swap3(arr: IntArray, x: Int, y: Int) {
  */
 fun swap4(arr: IntArray, x: Int, y: Int) {
 //    arr[x].toLong().shl(32).or(arr[y])
+//    arr[y] = (arr[x]+arr[y]) - (arr[x] = arr[y])
 }
 
 fun main() {

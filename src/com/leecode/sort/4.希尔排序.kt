@@ -1,14 +1,31 @@
 package com.leecode.sort
 
 fun main() {
-    val arr = intArrayOf(66, 11,57, 3, 45, 63, 28, 29, 4, 2, 15, 40, 42, 46, 52, 55, 57,  63)
+    val arr = MakeArray.array
     shellSort(arr)
     println(arr.joinToString())
 }
 
-private fun shellSort(array: IntArray){
-    if (array.isEmpty()){
+/**
+ * 希尔排序
+ */
+private fun shellSort(array: IntArray) {
+    if (array.isEmpty()) {
         return
     }
-
+    val len = array.size
+    var gap = len / 2
+    var temp: Int
+    while (gap > 0) {
+        for (i in gap until len) {
+            temp = array[i]
+            var preIndex = i - gap
+            while (preIndex >= 0 && array[preIndex] > temp) {
+                array[preIndex + gap] = array[preIndex]
+                preIndex -= gap
+            }
+            array[preIndex + gap] = temp
+        }
+        gap /= 2
+    }
 }
