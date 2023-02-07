@@ -1,6 +1,5 @@
 package com.leecode.sort
 
-import com.sun.xml.internal.fastinfoset.util.ValueArray.MAXIMUM_CAPACITY
 import kotlin.random.Random
 
 
@@ -21,15 +20,17 @@ object MakeArray {
 }
 
 fun main() {
-    var a = 1
-    val b = 16
-//    while (a < b) {
-//        a = a.shl(1)
-//    }
-    a= tableSizeFor(16)
-    println("a = $a")
+
+    val arr = listOf(1,6,7,19,23,35,44,56,77,134,3412)
+
+    arr.forEach {
+        println( "$it 向上最近的2次冥数 ： ${tableSizeFor(it)}")
+    }
+
 }
 
+
+private const val MAXIMUM_CAPACITY = 1.shl(30)
 /**
  * HashMap 根据cap计算数组长度的方法
  * 数组长度始终是最接近cap的2的冥

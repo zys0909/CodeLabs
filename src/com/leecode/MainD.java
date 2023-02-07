@@ -7,10 +7,10 @@ public class MainD {
 
 
     public static void main(String[] args) {
-        String txt2 = "" +
-                "";
-        String txt3 = "晚安  大耗子";
-        System.out.println(addFlower(txt2));
+
+        String txt3 = "kk晚安 \n 大耗子";
+        System.out.println(txt3);
+        System.out.println(addFlower(txt3));
 
     }
 
@@ -35,7 +35,6 @@ public class MainD {
         String s;
         while (matcher.find()) {
             s = matcher.group(2);
-            System.out.println(s);
             // 16进制parse整形字符串
             try {
                 result.append((char) Integer.parseInt(s, 16));

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -26,15 +29,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df5a7e54-570e-4743-a17a-8905084a6c22" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/leecode/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leecode/ArrUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leecode/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leecode/MainA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leecode/MainB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leecode/MainC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leecode/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leecode/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leecode/A.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leecode/B.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leecode/MainA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leecode/MainA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leecode/MainD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leecode/MainD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leecode/sort/MakeArray.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leecode/sort/MakeArray.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,24 +61,23 @@
       </set>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1qNorhNS87vhO8m7Y8G4CywBSlB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/leecode" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="yiiguxing.plugin.translate" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/zoey/Documents/github/CodeLabs",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/com/leecode" />
@@ -90,33 +90,7 @@
       <recent name="$PROJECT_DIR$/src/com/leecode/big_sort" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainD">
-    <configuration name="MainA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leecode.MainA" />
-      <module name="CodeLabs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leecode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leecode.MainB" />
-      <module name="CodeLabs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leecode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.MakeArrayKt">
     <configuration name="MainC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leecode.MainC" />
       <module name="CodeLabs" />
@@ -143,6 +117,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leecode.Solution" />
+      <module name="CodeLabs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leecode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leecode.Test1" />
       <module name="CodeLabs" />
@@ -156,16 +143,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MakeArrayKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leecode.sort.MakeArrayKt" />
+      <module name="CodeLabs" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MakeArrayKt" />
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.MainD" />
-        <item itemvalue="Application.MainC" />
-        <item itemvalue="Application.MainB" />
-        <item itemvalue="Application.MainA" />
-        <item itemvalue="Application.Test1" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -245,45 +238,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1358" height="231" key="GridCell.Tab.0.bottom" timestamp="1674985105811">
-      <screen x="0" y="25" width="1680" height="951" />
-    </state>
-    <state width="1358" height="231" key="GridCell.Tab.0.bottom/0.25.1680.951@0.25.1680.951" timestamp="1674985105811" />
-    <state width="1358" height="231" key="GridCell.Tab.0.center" timestamp="1674985105810">
-      <screen x="0" y="25" width="1680" height="951" />
-    </state>
-    <state width="1358" height="231" key="GridCell.Tab.0.center/0.25.1680.951@0.25.1680.951" timestamp="1674985105810" />
-    <state width="1358" height="231" key="GridCell.Tab.0.left" timestamp="1674985105810">
-      <screen x="0" y="25" width="1680" height="951" />
-    </state>
-    <state width="1358" height="231" key="GridCell.Tab.0.left/0.25.1680.951@0.25.1680.951" timestamp="1674985105810" />
-    <state width="1358" height="231" key="GridCell.Tab.0.right" timestamp="1674985105811">
-      <screen x="0" y="25" width="1680" height="951" />
-    </state>
-    <state width="1358" height="231" key="GridCell.Tab.0.right/0.25.1680.951@0.25.1680.951" timestamp="1674985105811" />
-    <state x="334" y="133" key="SettingsEditor" timestamp="1674973474317">
-      <screen x="0" y="25" width="1680" height="951" />
-    </state>
-    <state x="334" y="133" key="SettingsEditor/0.25.1680.951@0.25.1680.951" timestamp="1674973474317" />
-    <state width="815" height="437" key="documentation.popup.size" timestamp="1674975837058">
-      <screen x="0" y="25" width="1680" height="951" />
-    </state>
-    <state width="815" height="437" key="documentation.popup.size/0.25.1680.951@0.25.1680.951" timestamp="1674975837058" />
-    <state x="563" y="261" key="extract.method.dialog" timestamp="1674977813417">
-      <screen x="0" y="25" width="1680" height="951" />
-    </state>
-    <state x="563" y="261" key="extract.method.dialog/0.25.1680.951@0.25.1680.951" timestamp="1674977813417" />
-    <state width="815" height="437" key="javadoc.popup.new" timestamp="1667640962498">
-      <screen x="0" y="25" width="1680" height="951" />
-    </state>
-    <state width="815" height="437" key="javadoc.popup.new/0.25.1680.951@0.25.1680.951" timestamp="1667640962498" />
-    <state x="231" y="191" key="new project wizard" timestamp="1674973540102">
-      <screen x="0" y="25" width="1680" height="951" />
-    </state>
-    <state x="231" y="191" key="new project wizard/0.25.1680.951@0.25.1680.951" timestamp="1674973540102" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -305,5 +259,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
